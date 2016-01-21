@@ -5,11 +5,15 @@ app = Flask(__name__)
 
 @app.route("/")
 def index():
-	return render_template("index.html")
+	return "test" #render_template("main/index.html")
 
 @app.route("/send/<message>")
 def recieve(message):
-	return render_template("recieve.html",message=message)
+	return render_template("main/send.html",message=message)
+
+@app.route("/send_picture/<link>")
+def send_picture(link):
+	return render_template("main/picture.html",link=link)
 
 @app.route("/get")
 def send():

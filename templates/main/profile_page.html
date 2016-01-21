@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+{% block maincontent %}
+<div class="main-container">
+	<div class="page-header">
+		<h3>UCLInspires</h3>
+	</div>
+
+	<p class="lead">This shows all the users</p>
+	<p> This is how you get stuff..</p>
+	<div class="page-header">
+        <h4>
+		User Object: {{user}} <br>
+        UserProfile Object:  {{user_profile}}<br>
+        Specific attributes: Gender  - {{user_profile.gender}} <br>
+        Type {{ user_profile.type }}
+
+        Let's find a sub model from that...
+
+        {{accountType}} <br>
+        {{accountType.interests}}
+        </h4>
+	</div>
+
+</div>
+
+{% endblock %}

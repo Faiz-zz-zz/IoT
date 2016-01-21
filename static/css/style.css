@@ -1,0 +1,145 @@
+
+@import url("https://fonts.googleapis.com/css?family=Raleway:600|Roboto");
+
+html {
+	-ms-text-size-adjust: 100%; 
+	-webkit-text-size-adjust: 100%;
+	font-size: 16px; 
+}
+
+body {
+	min-height: 100%;
+	margin: auto;
+	font-weight: 400;
+	padding-top: 70px;
+	background-color: #F5F5F5;
+}
+
+ 
+.navbar-inverse,
+.navbar-inverse .navbar-brand,
+.navbar-inverse .navbar-nav>li>a {
+	color: #FFF;
+	background-color: #1D2242;
+	font-family: 'Raleway', sans-serif;
+}
+
+.navbar-inverse .navbar-brand:hover,
+.navbar-inverse .navbar-nav>li>a:hover {
+	background-color: #A5A5A5;
+}
+/* ^ This is used color for hover over logo/items on the right on navbar */
+
+.main-content {
+	max-width: 1024px;
+	margin: auto;
+	border: 1px solid #F5F5F5;
+	border-radius: 5px;
+	background-color: #fff;
+	padding: 16px;
+}
+
+.nav-option {
+	font-size: 16px;
+}
+
+.span-header>*{
+	display: inline;
+}
+
+.state{
+    font-size:3rem;
+    visibility: hidden;
+}
+
+.accepted{
+    color:green;
+}
+
+.denied{
+    color:red;
+}
+
+.logo{
+    height:50px;
+    width:50px;
+    margin-top:-13px;
+}
+
+.navbar-inverse .navbar-toggle .icon-bar {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.top .container {
+  max-width: 940px;
+}
+
+.top {
+    background:url(https://s3.amazonaws.com/codecademy-content/projects/pocketbook/bg.jpg) no-repeat;
+    background-size:cover;
+    padding-bottom: 60px;
+}
+
+.header .container {
+    padding: 30px;
+    border-bottom: 1px solid #fff;
+    text-align: center;
+}
+
+.main {
+    color:white;
+    padding-top: 80px;
+}
+
+.header h1 {
+  color: white;
+}
+
+.main h1 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+form {
+  margin-left: 25px;
+}
+
+.main form input {
+    width:400px;
+    border-radius: 0;
+}
+
+.btn-default {
+    margin-top: 30px;
+    color:white;
+    background-color: #286353;
+    border-radius: 0;
+    padding: 6px 10px;
+    border: none;
+}
+
+.features {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.features h3 {
+  text-align:center;
+  margin-bottom: 30px;
+}
+
+.features p {
+  text-align:justify;
+}
+
+@media only screen and (max-width:550px) {
+    .main form input {
+        width:100%;
+    }
+}
