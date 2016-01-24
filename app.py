@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def index():
-	return "test" #render_template("main/index.html")
+	return "Well done! You managed to connect to TechSoc's IoT Server" #render_template("main/index.html")
 
 @app.route("/send/<message>")
 def recieve(message):
