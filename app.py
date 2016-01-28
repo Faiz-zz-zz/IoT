@@ -15,6 +15,14 @@ def recieve(message):
 def send_picture(link):
 	return render_template("main/picture.html",link=link)
 
+
+@app.route("/testsomething",methods=['GET', 'POST'])
+def send_string(request):
+	if request.method == 'POST':
+        print request.method['POST']
+    else 
+    	print request.method['GET']
+
 @app.route("/get")
 def send():
 	return "Yes, I hear you loud and clear"
